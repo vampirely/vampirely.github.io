@@ -2,13 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vampirely.github.io/</id>
     <title>BigMonster</title>
-    <updated>2020-05-16T13:00:21.726Z</updated>
+    <updated>2020-05-16T13:04:00.138Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vampirely.github.io/"/>
     <link rel="self" href="https://vampirely.github.io/atom.xml"/>
     <logo>https://vampirely.github.io/images/avatar.png</logo>
     <icon>https://vampirely.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, BigMonster</rights>
+    <entry>
+        <title type="html"><![CDATA[WPF代码改变控件Style]]></title>
+        <id>https://vampirely.github.io/post/wpf-dai-ma-gai-bian-kong-jian-style/</id>
+        <link href="https://vampirely.github.io/post/wpf-dai-ma-gai-bian-kong-jian-style/">
+        </link>
+        <updated>2020-05-16T13:01:24.000Z</updated>
+        <content type="html"><![CDATA[<p>控件名.Style=Resources[&quot;样式名称&quot;] as Style</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C#解析json数据/获取网页图片并加载到WPF控件]]></title>
         <id>https://vampirely.github.io/post/cjie-xi-json-shu-ju-huo-qu-wang-ye-tu-pian-bing-jia-zai-dao-wpf-kong-jian/</id>
