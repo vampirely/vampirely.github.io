@@ -2,13 +2,113 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vampirely.github.io/</id>
     <title>BigMonster</title>
-    <updated>2020-05-16T12:43:44.882Z</updated>
+    <updated>2020-05-16T13:00:21.726Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vampirely.github.io/"/>
     <link rel="self" href="https://vampirely.github.io/atom.xml"/>
     <logo>https://vampirely.github.io/images/avatar.png</logo>
     <icon>https://vampirely.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, BigMonster</rights>
+    <entry>
+        <title type="html"><![CDATA[C#解析json数据/获取网页图片并加载到WPF控件]]></title>
+        <id>https://vampirely.github.io/post/cjie-xi-json-shu-ju-huo-qu-wang-ye-tu-pian-bing-jia-zai-dao-wpf-kong-jian/</id>
+        <link href="https://vampirely.github.io/post/cjie-xi-json-shu-ju-huo-qu-wang-ye-tu-pian-bing-jia-zai-dao-wpf-kong-jian/">
+        </link>
+        <updated>2020-05-16T12:49:28.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-c#">using Newtonsoft.Json;//需要额外添加dll
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace 解析
+{
+    /// &lt;summary&gt;
+    /// MainWindow.xaml 的交互逻辑
+    /// &lt;/summary&gt;
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+        public static string GetUrlContent(string urladdress)
+        {
+            WebClient MyWebClient = new WebClient();
+            MyWebClient.Credentials = CredentialCache.DefaultCredentials;//获取或设置用于向Internet资源的请求进行身份验证的网络凭据
+            Byte[] pageData = MyWebClient.DownloadData(urladdress); //从指定网站下载数据
+            string pageHtml = Encoding.Default.GetString(pageData);  //如果获取网站页面采用的是GB2312，则使用这句           
+            //string pageHtml = Encoding.UTF8.GetString(pageData); //如果获取网站页面采用的是UTF-8，则使用这句
+            return pageHtml;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+                 
+           
+            string stri = GetUrlContent(&quot;API地址&quot;); 
+    
+                       List&lt;Info&gt; testInfos = new List&lt;Info&gt;();
+            testInfos = JsonConvert.DeserializeObject&lt;List&lt;Info&gt;&gt;(stri);
+            datagrid.ItemsSource = testInfos;
+
+            //做控件背景，bor是border控件名
+            bor.Background = new ImageBrush
+            {
+                ImageSource = new BitmapImage(new Uri(testInfos[0].imgurl, UriKind.RelativeOrAbsolute)),
+                Stretch = Stretch.Uniform
+            };
+        }
+        public class Info
+        {
+            public string title { get; set; }
+            public string digest { get; set; }
+            public string docurl { get; set; }
+            public string commenturl { get; set; }
+            public int tienum { get; set; }
+            public string tlastid { get; set; }
+            public string tlink { get; set; }
+            public string label { get; set; }
+            List&lt;Keyinfo&gt; keys = new List&lt;Keyinfo&gt;();
+            public List&lt;Keyinfo&gt; keywords
+            {
+                get { return keys; }
+                set { keys = value; }
+            }
+            public string time { get; set; }
+            public string newstype { get; set; }
+            public string channelname { get; set; }
+            public string imgurl { get; set; }
+            public string add1 { get; set; }
+            public string add2 { get; set; }
+            public string add3 { get; set; }
+        } 
+        public class Keyinfo
+        {
+            public string akey_link { get; set; }
+            public string keyname { get; set; }
+        }
+    }
+}
+
+});
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[天气接口/随机诗词接口/每日一句接口]]></title>
         <id>https://vampirely.github.io/post/tian-qi-jie-kou-sui-ji-shi-ci-jie-kou-mei-ri-yi-ju-jie-kou/</id>
