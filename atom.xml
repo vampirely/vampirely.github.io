@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vampirely.github.io/</id>
     <title>BigMonster Blogs</title>
-    <updated>2020-05-16T13:13:04.331Z</updated>
+    <updated>2020-05-16T13:17:32.159Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vampirely.github.io/"/>
     <link rel="self" href="https://vampirely.github.io/atom.xml"/>
@@ -15,7 +15,9 @@
         <link href="https://vampirely.github.io/post/wpf-dai-ma-gai-bian-kong-jian-style/">
         </link>
         <updated>2020-05-16T13:01:24.000Z</updated>
-        <content type="html"><![CDATA[<p>控件名.Style=Resources[&quot;样式名称&quot;] as Style</p>
+        <content type="html"><![CDATA[<blockquote>
+<p>控件名.Style=Resources[&quot;样式名称&quot;] as Style</p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
@@ -124,23 +126,29 @@ namespace 解析
         <link href="https://vampirely.github.io/post/tian-qi-jie-kou-sui-ji-shi-ci-jie-kou-mei-ri-yi-ju-jie-kou/">
         </link>
         <updated>2020-05-16T11:49:44.000Z</updated>
-        <content type="html"><![CDATA[<p>国家气象局提供的天气预报接口<br>
-接口地址：<br>
-http://www.weather.com.cn/data/sk/101010100.html<br>
-http://www.weather.com.cn/data/cityinfo/101010100.html<br>
-http://m.weather.com.cn/data/101010100.html</p>
-<p>每日一句：<br>
-http://open.iciba.com/dsapi/</p>
-<p>随机古诗词接口:<br>
-接口地址:　　<br>
-https://api.gushi.ci/all.json<br>
-请求示例:<br>
+        <content type="html"><![CDATA[<p>#国家气象局提供的天气预报接口<br>
+##接口地址：</p>
+<blockquote>
+<p><a href="http://www.weather.com.cn/data/sk/101010100.html">http://www.weather.com.cn/data/sk/101010100.html</a><br>
+<a href="http://www.weather.com.cn/data/cityinfo/101010100.html">http://www.weather.com.cn/data/cityinfo/101010100.html</a><br>
+<a href="http://m.weather.com.cn/data/101010100.html">http://m.weather.com.cn/data/101010100.html</a></p>
+</blockquote>
+<p>#每日一句：</p>
+<blockquote>
+<p><a href="http://open.iciba.com/dsapi/">http://open.iciba.com/dsapi/</a></p>
+</blockquote>
+<p>#随机古诗词接口:<br>
+##接口地址:</p>
+<blockquote>
+<p><a href="https://api.gushi.ci/all.json">https://api.gushi.ci/all.json</a><br>
+###请求示例:<br>
 {<br>
 &quot;content&quot; : &quot;睡里消魂无说处。觉来惆怅消魂误。&quot;,<br>
 &quot;origin&quot; : &quot;蝶恋花·梦入江南烟水路&quot;,<br>
 &quot;author&quot; : &quot;晏几道&quot;,<br>
 &quot;category&quot; : &quot;古诗文-抒情-闺怨&quot;<br>
 }</p>
+</blockquote>
 ]]></content>
     </entry>
 </feed>
