@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vampirely.github.io/</id>
-    <title>BigMonster</title>
-    <updated>2020-05-16T13:04:00.138Z</updated>
+    <title>BigMonster Blogs</title>
+    <updated>2020-05-16T13:13:04.331Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vampirely.github.io/"/>
     <link rel="self" href="https://vampirely.github.io/atom.xml"/>
     <logo>https://vampirely.github.io/images/avatar.png</logo>
     <icon>https://vampirely.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, BigMonster</rights>
+    <rights>All rights reserved 2020, BigMonster Blogs</rights>
     <entry>
         <title type="html"><![CDATA[WPF代码改变控件Style]]></title>
         <id>https://vampirely.github.io/post/wpf-dai-ma-gai-bian-kong-jian-style/</id>
