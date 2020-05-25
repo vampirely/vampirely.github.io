@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vampirely.github.io/</id>
     <title>BigMonster Blogs</title>
-    <updated>2020-05-25T15:37:02.935Z</updated>
+    <updated>2020-05-25T15:38:34.086Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vampirely.github.io/"/>
     <link rel="self" href="https://vampirely.github.io/atom.xml"/>
@@ -33,19 +33,28 @@
 </tr>
 </tbody>
 </table>
-<blockquote>
 <ol>
-<li>英语需要加强：<br>
-- 每天22:00下课之后，需要在30分钟之类完成英语打卡（双页）。<br>
-- 短语抽背。</li>
-<li>计算机：<br>
-- 加强对有数字的内容的记忆。<br>
-- 简答题。</li>
-<li>语文：<br>
-- 每天必背一点内容（多少无所谓）。<br>
-课程表<br>
-<img src="https://vampirely.github.io//post-images/1590418042555.jpg" alt="" loading="lazy"></li>
+<li>英语需要加强：
+<ul>
+<li>每天22:00下课之后，需要在30分钟之类完成英语打卡（双页）。</li>
+<li>短语抽背。</li>
+</ul>
+</li>
+<li>计算机：
+<ul>
+<li>加强对有数字的内容的记忆。</li>
+<li>简答题。</li>
+</ul>
+</li>
+<li>语文：
+<ul>
+<li>每天必背一点内容（多少无所谓）。</li>
+</ul>
+</li>
 </ol>
+<blockquote>
+<p>课程表<br>
+<img src="https://vampirely.github.io//post-images/1590418042555.jpg" alt="" loading="lazy"></p>
 </blockquote>
 ]]></content>
     </entry>
