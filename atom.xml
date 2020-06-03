@@ -2,63 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vampirely.github.io/</id>
     <title>BigMonster Blogs</title>
-    <updated>2020-06-03T02:06:35.712Z</updated>
+    <updated>2020-06-03T15:04:11.333Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vampirely.github.io/"/>
     <link rel="self" href="https://vampirely.github.io/atom.xml"/>
     <logo>https://vampirely.github.io/images/avatar.png</logo>
     <icon>https://vampirely.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, BigMonster Blogs</rights>
-    <entry>
-        <title type="html"><![CDATA[PLANNING FOR PEI]]></title>
-        <id>https://vampirely.github.io/post/planing-for-pei/</id>
-        <link href="https://vampirely.github.io/post/planing-for-pei/">
-        </link>
-        <updated>2020-05-25T14:44:11.000Z</updated>
-        <content type="html"><![CDATA[<table>
-<thead>
-<tr>
-<th></th>
-<th>英语</th>
-<th>语文</th>
-<th>计算机</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>成绩</td>
-<td>65👎</td>
-<td>70😐</td>
-<td>75🙂</td>
-</tr>
-</tbody>
-</table>
-<ol>
-<li>英语需要加强：
-<ul>
-<li>每天22:00下课之后，需要在30分钟之类完成英语打卡（双页）。</li>
-<li>短语抽背。</li>
-</ul>
-</li>
-<li>计算机：
-<ul>
-<li>加强对有数字的内容的记忆。</li>
-<li>简答题。</li>
-</ul>
-</li>
-<li>语文：
-<ul>
-<li>每天必背一点内容（多少无所谓）。</li>
-</ul>
-</li>
-</ol>
-<blockquote>
-<p>课程表<br>
-<img src="https://vampirely.github.io//post-images/1590418042555.jpg" alt="" loading="lazy"></p>
-</blockquote>
-<p><a href="mailto:303542101@qq.com">303542101@qq.com</a></p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[WPF代码改变控件Style]]></title>
         <id>https://vampirely.github.io/post/wpf-dai-ma-gai-bian-kong-jian-style/</id>
