@@ -2,13 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vampirely.github.io/</id>
     <title>BigMonster Blogs</title>
-    <updated>2020-06-03T15:04:11.333Z</updated>
+    <updated>2020-09-08T01:28:37.391Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vampirely.github.io/"/>
     <link rel="self" href="https://vampirely.github.io/atom.xml"/>
     <logo>https://vampirely.github.io/images/avatar.png</logo>
     <icon>https://vampirely.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, BigMonster Blogs</rights>
+    <entry>
+        <title type="html"><![CDATA[免费短信接码网站]]></title>
+        <id>https://vampirely.github.io/post/mian-fei-duan-xin-jie-ma-wang-zhan/</id>
+        <link href="https://vampirely.github.io/post/mian-fei-duan-xin-jie-ma-wang-zhan/">
+        </link>
+        <updated>2020-09-08T01:28:00.000Z</updated>
+        <content type="html"><![CDATA[<p>以下是收集的一些免费接码平台。配合临时邮箱使用更佳。<br>
+需要注意的是这些都是所有人可以使用的，不要进行敏感操作，造成金钱上的损失与本站无关。<br>
+国内平台<br>
+https://www.pdflibr.com<br>
+https://www.mffac.com<br>
+https://www.materialtools.com<br>
+https://www.yinsiduanxin.com<br>
+https://www.suiyongsuiqi.com<br>
+https://www.sms00.com<br>
+https://mianfeijiema.com<br>
+https://www.visitorsms.com/cn<br>
+https://www.becmd.com<br>
+http://www.114sim.com<br>
+https://yunduanxin.net<br>
+http://z-sms.com<br>
+http://www.shejiinn.com<br>
+https://sms.cngrok.com<br>
+https://jiemahao.com<br>
+国外平台<br>
+https://ch.freephonenum.com<br>
+https://zh.mytrashmobile.com<br>
+https://smsreceivefree.com<br>
+https://zh.mytrashmobile.com<br>
+https://www.receive-sms-online.info<br>
+https://receiveasms.com<br>
+https://sms-online.co/receive-free-sms<br>
+https://receive-sms.com<br>
+https://us-phone-number.com</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WPF代码改变控件Style]]></title>
         <id>https://vampirely.github.io/post/wpf-dai-ma-gai-bian-kong-jian-style/</id>
